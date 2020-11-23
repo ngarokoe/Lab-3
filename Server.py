@@ -1,9 +1,9 @@
 import socket
-import expression
+import workitem
 import pickle
 
 
-def solution_workitem(expression):
+def solution_workitem(workitem):
     '''
     Решение выражения
     :param workitem: workitem
@@ -27,9 +27,9 @@ def test_workitem(workitem_server, list_otv):
 
 
 # Создаем очередь заданий
-workitem_1 = expression.WorkItem()
-workitem_2 = expression.WorkItem()
-workitem_3 = expression.WorkItem()
+workitem_1 = workitem.WorkItem()
+workitem_2 = workitem.WorkItem()
+workitem_3 = workitem.WorkItem()
 # Флаги, отвечающие за решенность задания
 flag_1 = False
 flag_2 = False
